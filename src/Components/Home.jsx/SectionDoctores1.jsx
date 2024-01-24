@@ -1,5 +1,6 @@
 import {Link} from 'react-router-dom'
 import imgsection1 from '../../assets/home/1-homeIntro.jpg'
+import DocEspecialidad from '../DocEspecialidad'
 
 const SectionDoctores1 = () => {
   return (
@@ -18,11 +19,10 @@ const SectionDoctores1 = () => {
        {/*      <Link to='/orden' className="text-reset">
               <button type="button" className="btn btn-dark btn-lg px-4 me-md-2">Especialidades</button>
               </Link> */}
-              <Link to='/menu' className="text-reset">
-
+            {/*   <Link to='/menu' className="text-reset">
               <button type="button" className="btn btn-dark btn-lg px-4">Doctores</button>
-              </Link>
-
+              </Link> */}
+              <DocEspecialidad/>
             </div>
           </div>
         </div>
