@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
 
 const SectionFacilities3 = () => {
   return (
-    <div>SectionFacilities3</div>
-  )
-}
+ <div className="container">
+  
+  section3
+  </div>
+   
+  );
+};
 
-export default SectionFacilities3
+export default SectionFacilities3;

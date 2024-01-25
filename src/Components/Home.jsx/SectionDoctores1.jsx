@@ -1,12 +1,11 @@
-import {Link} from 'react-router-dom'
-import imgsection1 from '../../assets/home/1-homeIntro.jpg'
+import imgsection1 from '../../assets/home/intro.png'
 import DocEspecialidad from '../DocEspecialidad'
 
 const SectionDoctores1 = () => {
   return (
     <div>
     <div>
-      <div className="container col-xxl-8 px-4 py-5">
+      <div className="container col-xxl-8 px-4 py-5 bg-info">
         <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div className="col-10 col-sm-8 col-lg-6">
             <img src={imgsection1} className="d-block mx-lg-auto img-fluid" alt="Clinica" width={700} height={500} loading="lazy" />

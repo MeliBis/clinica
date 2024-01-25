@@ -1,22 +1,24 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import imgLogo from "../../assets/logo/logo-clinica.svg"
 const Footer = () => {
   return (
     <footer>
-      <div className="container pt-5 pb-5">
-        <div className="d-flex flex-column flex-md-row g-4 row justify-content-around">
+      <div className="container bg-info  p-3">
+        <div className="d-flex flex-column flex-md-row g-4 row justify-content-around ">
           <div className="left-container col-12 col-lg-4">
             <Link to="/">
               <img
                 className="logo"
-                src="../assets/imgs/logo-4.png"
+                src={imgLogo}
+                width={50}
+                height={50}
                 alt="logo"
               />
             </Link>
-            <span>Clinica</span>
-            <h6>
-              x000 000<span className="addres">Calle</span> <br />
+            <span></span>
+            <h6 className='mt-5'>
+              calle x<span className="addres">Calle</span> <br />
               México- Estado <br />
               Teléfono: (800)-000-0000
             </h6>

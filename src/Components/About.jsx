@@ -1,9 +1,9 @@
-import imgClinicaIntro from '../assets/home/1-homeIntro.jpg'
+import imgClinicaIntro from '../assets/home/intro.png'
 
 const About = () => {
   return (
-    <div>
-      <div className="  col m-0 vh-100 row align-items-center justify-content-center display-5">
+    <div className='container'>
+      <div className="  col m-0 vh-100 row align-items-center justify-content-center display-2">
         <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div className="col-10 col-sm-8 col-lg-6">
             <img

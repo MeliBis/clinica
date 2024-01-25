@@ -2,8 +2,9 @@ import React from 'react'
 
 const SectionTestimonials4 = () => {
   return (
-    <div id="carouselExample" className="carousel slide">
+    <div id="carouselExample" className="carousel slide container">
     <div className="carousel-inner">
+      <h3>Testimoials</h3>
       <div className="carousel-item active">
         <img src="..." className="d-block w-100" alt="..." />
       </div>

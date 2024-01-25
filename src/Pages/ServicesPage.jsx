@@ -1,8 +1,11 @@
 import React from 'react'
+import Services from '../Components/Services'
 
 const ServicesPage = () => {
   return (
-    <div>ServicesPage</div>
+    <div className='mt-5'>
+    <Services/>
+    </div>
   )
 }
 

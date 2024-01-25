@@ -1,15 +1,18 @@
 import { Link } from 'react-router-dom'
+import imgLogo from '../../assets/logo/logo.png'
 
 const NavBar1 = () => {
   return (
     <div className="container mw-100  fixed-top ">
-    <nav className="navbar navbar-expand-lg bg-body-tertiary   ">
+    <nav className="navbar navbar-expand-lg bg-info  ">
       <div className="container">
         <Link className="navbar-brand" to="/">
-          Clínica logo
+          <img src={imgLogo} alt="" 
+           width={50}
+           height={50}/>
         </Link>
         <button
-          className="navbar-toggler"
+          className="navbar-toggler text-info-emphasis"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNavDropdown"
