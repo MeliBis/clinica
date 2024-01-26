@@ -1,23 +1,17 @@
-import React from 'react'
+import React from "react";
 
 const DocEspecialidad = () => {
   return (
-<div className="input-group mb-3">
-  <button type="button" className="btn btn-dark btn-lg px-4">Doctores</button>
-  <button type="button" className="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
-    <span className="visually-hidden">Toggle Dropdown</span>
-  </button>
-  <ul className="dropdown-menu">
-    <li><a className="dropdown-item" href="#">Action</a></li>
-    <li><a className="dropdown-item" href="#">Another action</a></li>
-    <li><a className="dropdown-item" href="#">Something else here</a></li>
-    <li><hr className="dropdown-divider" /></li>
-    <li><a className="dropdown-item" href="#">Separated link</a></li>
-  </ul>
-</div>
+    <select className="form-select" aria-label="Default select example">
+      <option selected>Especialidad</option>
+      <option value={1}>Especialidad 1</option>
+      <option value={2}>Especialidad 2</option>
+      <option value={3}>Especialidad 3</option>
+      <option value={4}>Especialidad 4</option>
+      <option value={5}>Especialidad 5</option>
+      <option value={6}>Especialidad 6</option>
+    </select>
+  );
+};
 
-
-  )
-}
-
-export default DocEspecialidad
+export default DocEspecialidad;
