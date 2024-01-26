@@ -19,17 +19,29 @@ const Footer = () => {
   <div className="col-xs-12 col-md-6 col-lg-3">
     <p className='h5 mb-3'>Conócenos</p>
     <div><Link className='text-secondary text-decoration-none'>Sobre nosotros</Link></div>
-    <div><Link className='text-secondary text-decoration-none'>Términos y condiciones</Link></div>
-    <div><Link className='text-secondary text-decoration-none'>Politicas de privacidad</Link></div>
-  </div>
-  <div className="col-xs-12 col-md-6 col-lg-3">
-    <div className='h5 mb-3'>Contáctanos</div>
     <div><Link className='text-secondary text-decoration-none'>¿Cómo llegar?</Link></div>
     <div><Link className='text-secondary text-decoration-none'>Términos y condiciones</Link></div>
     <div><Link className='text-secondary text-decoration-none'>Politicas de privacidad</Link></div>
-
   </div>
   <div className="col-xs-12 col-md-6 col-lg-3">
+    <p className='h5 mb-3'>Conócenos</p>
+    <div><Link className='text-secondary text-decoration-none'>Sobre nosotros</Link></div>
+    <div><Link className='text-secondary text-decoration-none'>¿Cómo llegar?</Link></div>
+    <div><Link className='text-secondary text-decoration-none'>Términos y condiciones</Link></div>
+    <div><Link className='text-secondary text-decoration-none'>Politicas de privacidad</Link></div>
+  </div>
+  <div className="col-xs-12 col-md-6 col-lg-3">
+    <div className='h5 mb-3'>Legales</div>
+    <div><Link className='text-secondary text-decoration-none'>Términos y condiciones</Link></div>
+    <div><Link className='text-secondary text-decoration-none'>Politicas de publicidad</Link></div>
+    <div><Link className='text-secondary text-decoration-none'>Aviso de privacidad</Link></div>
+    <div><Link className='text-secondary text-decoration-none'>Permiso de COFEPRIS</Link></div>
+
+  </div>
+
+
+<hr className='mt-3'/>
+<div className="col-xs-12 col-md-6 col-lg-3 container-fluid">
     <div className='h5 mb-3 text-center'>Contáctanos</div>
     <ul>
     <li className="mt-3 container-fluid d-flex  justify-content-between">
@@ -80,10 +92,8 @@ const Footer = () => {
                 </Link>
               </li>
             </ul>
-
-            <ul className="col-10 col-md-2 list-unstyled"></ul>
-      </div>
-
+    <ul className="col-10 col-md-2 list-unstyled"></ul>
+  </div>
 <hr className='mt-3'/>
         <div className="d-flex justify-content-center ">
           <p>
