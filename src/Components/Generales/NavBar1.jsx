@@ -3,7 +3,7 @@ import imgLogo from '../../assets/logo/logo.png'
 
 const NavBar1 = () => {
   return (
-    <div className="container mw-100  fixed-top ">
+     <div className="container-fluid mw-100  fixed-top ">
     <nav className="navbar navbar-expand-lg bg-info  ">
       <div className="container">
         <Link className="navbar-brand" to="/">
@@ -92,7 +92,9 @@ const NavBar1 = () => {
         </div>
       </div>
     </nav>
-  </div>
+  </div> 
+
+
   )
 }
 
