@@ -15,12 +15,6 @@ const SectionDoctores1 = () => {
             comienza aquí</span> </h1>
             <p className="lead"> La experiencia y la empatía convergen para brindarte un camino personalizado hacia la salud óptima.</p>
             <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-       {/*      <Link to='/orden' className="text-reset">
-              <button type="button" className="btn btn-dark btn-lg px-4 me-md-2">Especialidades</button>
-              </Link> */}
-            {/*   <Link to='/menu' className="text-reset">
-              <button type="button" className="btn btn-dark btn-lg px-4">Doctores</button>
-              </Link> */}
               <DocEspecialidad/>
             </div>
           </div>
@@ -28,7 +22,6 @@ const SectionDoctores1 = () => {
       </div>
       <div className="b-example-divider" />
     </div>
-
 </div>
   )
 }

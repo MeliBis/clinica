@@ -1,5 +1,3 @@
-
-
 .login-button{
     background-color: #009970;
     color: #fff;
@@ -51,6 +49,5 @@ color: #000;
     .nav-link:hover::before, .nav-link.active::before{
         width: 100%;
         visibility: visible;
-    
     }
 }
