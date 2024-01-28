@@ -31,9 +31,9 @@
 }
 .single-item{
     background-color: #fff;
-    color: #111;
+    color: var(--color-primary);
     padding: 10px;
-   
+   border-radius: 5px;
 }
 .profile{
     margin-bottom: 30px;
@@ -54,7 +54,7 @@
 }
 .content p{
     text-align: justify;
-    margin-right: 40px;
+    margin: auto 55px;
 }
 
 .bio h4{

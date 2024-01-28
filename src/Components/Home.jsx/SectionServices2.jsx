@@ -4,9 +4,9 @@ import img3 from '../../assets/Servicios/3.jpg'
 
 const SectionServices2 = () => {
   return (
-   <div className="container mb-5">
+   <div className="container">
       <div className="row g-3">
-        <h1 className='text-center'>Servicios</h1>
+        <h2 className='text-center '>Servicios</h2>
         <div className="col-12 col-md-6 col-lg-4">
           <div className="card">
             <img src={img1} alt="foto 1" />

@@ -2,9 +2,9 @@ const SectionPregFrec5 = () => {
   return (
     <main className=" bg-light d-flex aling-items-center mb-5">
       <section className="h-75 container-sm mx-auto">
-        <h1 className="fs-5 text-primary text-center py-3">
+        <h2 className=" text-center py-3">
           Preguntas frecuentes
-        </h1>
+        </h2>
         <div className="accordion" id="accordionExample">
           <div className="accordion-item">
             <h2 className="accordion-header">
@@ -18,7 +18,7 @@ const SectionPregFrec5 = () => {
               >
              
 
-                <span className="px-3 text-info">Pregunta #1</span>
+                <span className="px-3 questionSection">Pregunta #1</span>
               </button>
             </h2>
             <div
@@ -41,7 +41,7 @@ const SectionPregFrec5 = () => {
                 aria-expanded="false"
                 aria-controls="collapseTwo"
               >
-                <span className="px-3 text-info">Pregunta #2</span>
+                <span className="px-3 questionSection">Pregunta #2</span>
               </button>
             </h2>
             <div
@@ -64,7 +64,7 @@ const SectionPregFrec5 = () => {
                 aria-expanded="false"
                 aria-controls="collapseThree"
               >
-                <span className="px-3 text-info">Pregunta #3</span>
+                <span className="px-3 questionSection">Pregunta #3</span>
               </button>
             </h2>
             <div
@@ -87,7 +87,7 @@ const SectionPregFrec5 = () => {
                 aria-expanded="false"
                 aria-controls="collapseFour"
               >
-                <span className="px-3 text-info">Pregunta #4</span>
+                <span className="px-3 questionSection">Pregunta #4</span>
               </button>
             </h2>
             <div
@@ -111,7 +111,7 @@ const SectionPregFrec5 = () => {
                 aria-expanded="false"
                 aria-controls="collapseFive"
               >
-                <span className="px-3 text-info">Pregunta #5</span>
+                <span className="px-3 questionSection">Pregunta #5</span>
               </button>
             </h2>
             <div
