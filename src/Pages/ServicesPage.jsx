@@ -4,7 +4,7 @@ import Services from '../Components/Services'
 const ServicesPage = () => {
   return (
     <div className='mt-5'>
-    <Services/>
+      <Services/>
     </div>
   )
 }

@@ -2,6 +2,9 @@
     margin: 200px auto;
     
 }
+.background{
+    background-color: #05808d;
+}
 .card:hover{
    box-shadow: 5px 10px 20px 1px #05808d;
    transition: all 0.7s linear;
