@@ -1,10 +1,9 @@
 import { Link } from 'react-router-dom'
 import PropTypes from "prop-types"
 
-const Card = ({title, description, img, url}) => {
-    
+const Card = ({title, description, img, url}) => {  
   return (
-    <div className="card text-center background mt-4">
+    <div className="card text-center background mt-5">
     <img  src={img} alt="servicio 1" />
     <div className="card-body text-light">
       <h4 className="card-title">{title}</h4>

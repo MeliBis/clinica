@@ -12,6 +12,7 @@ import NavBar1 from '../Components/Generales/NavBar1';
 import AboutPage from '../Pages/AboutPage';
 import ContactPage from '../Pages/ContactPage';
 import ServicesPage from '../Pages/ServicesPage';
+import EspecialidadPage from '../Pages/EspecialidadPage';
 
 const Routing = () => {
   return (
@@ -22,6 +23,7 @@ const Routing = () => {
             <Route path='sobre-nosotros' element={<AboutPage/>}/>
             <Route path='contacto' element={<ContactPage/>}/>
             <Route path='servicios' element={<ServicesPage/>}/>
+            <Route path='especialidad' element={<EspecialidadPage/>}/>
         </Routes>
 
         <Footer/>

@@ -9,7 +9,7 @@ const Cards = () => {
         <div className="row">
             {
                 cards.map(card => (
-                    <div key={card.id} className="col-md-4 col-md-6 col-lg-4">
+                    <div key={card.id} className="col-md-4 col-md-6 col-lg-4 mb-4">
                         <Card title={card.title} description={card.description} img={card.img} url={card.url}/>
                     </div>
                 ))

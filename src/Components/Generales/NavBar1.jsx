@@ -40,10 +40,15 @@ const NavBar1 = () => {
                 </Link>
               </li>
               <li className="nav-item">
+                <Link className="nav-link" to="/especialidad">
+                  Doctores
+                </Link>
+              </li>
+              <li className="nav-item">
                 <Link className="nav-link" to="/servicios">
                   Servicios
                 </Link>
-              </li>
+                </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/contacto">
                   Contacto
@@ -66,9 +71,9 @@ const NavBar1 = () => {
             </ul>
           </div>
         </div>
-        <Link to="" className="login-button">
+{/*         <Link to="" className="login-button">
           Login
-        </Link>
+        </Link> */}
         <button
           className="navbar-toggler pe-0"
           type="button"

@@ -1,10 +1,9 @@
-import React from 'react'
-import Services from '../Components/Services'
+import Cards from '../Components/Generales/card/Cards'
 
 const ServicesPage = () => {
   return (
-    <div className='mt-5'>
-      <Services/>
+    <div className='mt-5 '>
+      <Cards/>
     </div>
   )
 }
