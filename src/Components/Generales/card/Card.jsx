@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import PropTypes from "prop-types"
 
-const Card = ({title, description, img, url, name, specialty, action, actionSpeciality}) => {  
+const Card = ({title, description, img, url, name, specialty, action, actionSpeciality, experience}) => {  
   return (
     <div className="card text-center background mt-5">
     <img className='cardImg' src={img} alt={title} />
@@ -10,7 +10,7 @@ const Card = ({title, description, img, url, name, specialty, action, actionSpec
       <h5 >{specialty}</h5>
       <p className="card-text text-light">
         {
-            description ? description : 'Lorem ipsum dolor sit amet consectetur adipisicing '
+            description || experience ? description || experience : 'Lorem ipsum dolor sit amet consectetur adipisicing '
         }
         </p>
       <Link to={url} className="btn btn-outline-light rounded-0" target='_blank'>
@@ -23,7 +23,7 @@ const Card = ({title, description, img, url, name, specialty, action, actionSpec
 
 Card.propTypes ={
     title: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
+    description: PropTypes.string,
     url:PropTypes.string,
     img:PropTypes.string
 }

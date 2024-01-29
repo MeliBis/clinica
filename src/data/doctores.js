@@ -7,8 +7,8 @@ import womenImg from "../assets/doctores/women.jpg"
         name: "Abel Alamar",
         img:manImg,
         specialty:"Pediatría",
-        experience: "6 años de experiencia",  
-        description: "lorem loresm accusamus et accusamus et accusamus et accusamus et accusamus et accusamus et accus",
+        experience: "13 años de experiencia",  
+        descriptionDoc: "Dr. Abel Alamar es un médico pediátrico con experiencia en la atención de niños y adolescentes. ",
         actionSpeciality: "Ver más"
     },
     {
@@ -17,7 +17,7 @@ import womenImg from "../assets/doctores/women.jpg"
         img:womenImg,
         specialty:"Anestesiología",
         experience: "6 años de experiencia",
-        description: "lorem loresm accusamus et accusamus et accusamus et accusamus et accusamus et accusamus et accus",
+        descriptionDoc: "lorem loresm accusamus et accusamus et accusamus et accusamus et accusamus et accusamus et accus",
         actionSpeciality: "Ver más"
 
     },
@@ -27,7 +27,7 @@ import womenImg from "../assets/doctores/women.jpg"
         img: womenImg,
         specialty:"Dermatología",
         experience: "6 años de experiencia",
-        description: "lorem loresm accusamus et accusamus et accusamus et accusamus et accusamus et accusamus et accus",
+        descriptionDoc: "lorem loresm accusamus et accusamus et accusamus et accusamus et accusamus et accusamus et accus",
         actionSpeciality: "Ver más"
 
     },
@@ -37,7 +37,7 @@ import womenImg from "../assets/doctores/women.jpg"
         img:manImg,
         specialty:"Endocrinología",
         experience: "6 años de experiencia",
-        description: "lorem loresm accusamus et accusamus et accusamus et accusamus et accusamus et accusamus et accus",
+        descriptionDoc: "lorem loresm accusamus et accusamus et accusamus et accusamus et accusamus et accusamus et accus",
         actionSpeciality: "Ver más"
 
     },
@@ -47,7 +47,7 @@ import womenImg from "../assets/doctores/women.jpg"
         img:womenImg,
         specialty:"Geriatría",
         experience: "6 años de experiencia",
-        description: "lorem loresm accusamus et accusamus et accusamus et accusamus et accusamus et accusamus et accus",
+        descriptionDoc: "lorem loresm accusamus et accusamus et accusamus et accusamus et accusamus et accusamus et accus",
         actionSpeciality: "Ver más"
 
     },
@@ -57,7 +57,7 @@ import womenImg from "../assets/doctores/women.jpg"
         img: manImg,
         specialty:"Neurología",
         experience: "6 años de experiencia",
-        description: "lorem loresm accusamus et accusamus et accusamus et accusamus et accusamus et accusamus et accus",
+        descriptionDoc: "lorem loresm accusamus et accusamus et accusamus et accusamus et accusamus et accusamus et accus",
         actionSpeciality: "Ver más"
 
 
@@ -68,7 +68,7 @@ import womenImg from "../assets/doctores/women.jpg"
         img:manImg,
         specialty:"Oncología",
         experience: "6 años de experiencia",
-        description: "lorem loresm accusamus et accusamus et accusamus et accusamus et accusamus et accusamus et accus",
+        descriptionDoc: "lorem loresm accusamus et accusamus et accusamus et accusamus et accusamus et accusamus et accus",
         actionSpeciality: "Ver más"
 
     },
@@ -78,7 +78,7 @@ import womenImg from "../assets/doctores/women.jpg"
         img:manImg,
         specialty:"Oftalmología",
         experience: "6 años de experiencia",
-        description: "lorem loresm accusamus et accusamus et accusamus et accusamus et accusamus et accusamus et accus",
+        descriptionDoc: "lorem loresm accusamus et accusamus et accusamus et accusamus et accusamus et accusamus et accus",
         actionSpeciality: "Ver más"
 
     },
@@ -88,7 +88,7 @@ import womenImg from "../assets/doctores/women.jpg"
         img:manImg,
         specialty:"Psiquiatría",
         experience: "6 años de experiencia",
-        description: "lorem loresm accusamus et accusamus et accusamus et accusamus et accusamus et accusamus et accus",
+        descriptionDoc: "lorem loresm accusamus et accusamus et accusamus et accusamus et accusamus et accusamus et accus",
         actionSpeciality: "Ver más"
 
     },
@@ -98,7 +98,7 @@ import womenImg from "../assets/doctores/women.jpg"
         img:womenImg,
         specialty:"Reumatología",
         experience: "6 años de experiencia",
-        description: "lorem loresm accusamus et accusamus et accusamus et accusamus et accusamus et accusamus et accus",
+        descriptionDoc: "lorem loresm accusamus et accusamus et accusamus et accusamus et accusamus et accusamus et accus",
         actionSpeciality: "Ver más"
 
     },
