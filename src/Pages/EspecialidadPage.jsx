@@ -1,8 +1,11 @@
 import React from 'react'
+import Espcialidad from '../Components/Especialidades/Espcialidad'
 
 const EspecialidadPage = () => {
   return (
-    <div>EspecialidadPage</div>
+    <div>
+      <Espcialidad/>
+    </div>
   )
 }
 

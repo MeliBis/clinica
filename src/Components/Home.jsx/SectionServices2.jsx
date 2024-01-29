@@ -1,5 +1,6 @@
 import cards from '../../data/cards.js'
 import Card from '../Generales/card/Card'
+import Cards from '../Generales/card/Cards.jsx'
 
 const SectionServices2 = () => {
   return (
@@ -36,15 +37,10 @@ const SectionServices2 = () => {
 
    </div> */
    <div className="container align-items-center justify-content-center ">
+    <h2 className='text-center'>Servicios</h2>
    <div className="row">
-       {
-           cards.map(card => (
-               <div key={card.id} className="col-md-4 col-md-6 col-lg-4">
-                   <Card title={card.title} description={card.description} img={card.img} url={card.url}/>
-               </div>
-           ))
-       }
 
+    <Cards/>
    </div>
 
 </div>

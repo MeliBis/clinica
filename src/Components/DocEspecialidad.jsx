@@ -1,37 +1,26 @@
-import Doctores from "../data/doctores"
-import PropTypes from 'prop-types'
+import PropTypes from "prop-types";
 
-const DocEspecialidad = ({id, name, specialty}) => {
-  
+const DocEspecialidad = ({ index, id, name, specialty }) => {
   return (
- <>
- <div className="row">
-  <div className="col">
-    <h2 >Especialidades</h2>
-    <select className="form-select form-select-sm" id="select1">
-     {/*  <option >Especialidades</option> */}
-      <option value={1}>
-        Doctor 1, especialidad
-      </option>
-       <option value={2}>
-        Doctor 2, especialidad
-       </option>
-      <option value={3}>
-        Doctor 3, especialidad
-      </option>
-{/*        <Card title={card.title} description={card.description} img={card.img} url={card.url}/>
- */}
-    </select>
-  </div>
- </div>
-
- </>
+    <>
+      <div className="row">
+        <div className="col">
+          <h2>Especialidades</h2>
+          <select className="form-select form-select-sm" aria-label="Default select example">
+            <option selected>Open this select menu</option>
+            <option value={1}><a href="/contacto">primer</a></option>
+            <option value={2}>Two</option>
+            <option value={3}>Three</option>
+          </select>
+        </div>
+      </div>
+    </>
   );
 };
 
-DocEspecialidad.prototypes={
+DocEspecialidad.prototypes = {
   name: PropTypes.string,
-  specialty: PropTypes.string
-}
+  specialty: PropTypes.string,
+};
 
 export default DocEspecialidad;

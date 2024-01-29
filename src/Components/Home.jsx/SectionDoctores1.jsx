@@ -1,8 +1,8 @@
+import { Link } from 'react-router-dom'
 import imgsection1 from '../../assets/home/intro.png'
-import doctores from '../../data/doctores'
-import DocEspecialidad from '../DocEspecialidad'
 
 const SectionDoctores1 = () => {
+  
   return (
     <div>
     <div>
@@ -16,15 +16,9 @@ const SectionDoctores1 = () => {
             comienza aquí</span> </h2>
             <p className="lead"> La experiencia y la empatía convergen para brindarte un camino personalizado hacia la salud óptima.</p>
             <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-              <DocEspecialidad id={doctores.id} name={doctores.name} specialty={doctores.specialty}/>
-  {/*           {
-                doctores.map(doctor => (
-                    <div key={doctor.id} className="col-md-4 col-md-6 col-lg-4">
-                        <DocEspecialidad id={doctor.id} name={doctor.name} specialty={doctor.specialty} />
-                    </div>
-                ))
-            } */}
-
+            <Link to='/especialidad' className="text-reset">
+                <button type="button" className="btn btn-outline-success btn-lg px-4 me-md-2">Especialidades</button>
+            </Link>           
             </div>
           </div>
         </div>
