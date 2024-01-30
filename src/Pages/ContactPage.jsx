@@ -6,7 +6,7 @@ function ContactPage() {
   return (
     <>
       <Contact/>
-      <Geolocalizacion/>
+      
     </>
   )
 }

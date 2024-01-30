@@ -1,10 +1,12 @@
+import imgHospital from '../assets/contact/hospital.jpg'
+import Geolocalizacion from './Geolocalizacion'
 
 const Contact = () => {
   return (
-    <div className="container-1 mt-5">
+    <div className="container-1 ">
   <div className="background-page">
-    <div className="container">
-      <h1 className="text-center mb-5 pt-3">Clínica</h1>
+    <div className="container mt-5">
+      <h2 className="text-center mb-5 pt-3">Clínica</h2>
       <div className="details row text-center text-sm-start align-items-stretch pt-5 mb-5">
         <div className="title col col-12 col-md-3">
           <h2>Contacts</h2>
@@ -47,9 +49,9 @@ const Contact = () => {
           </p>
         </div>
       </div>
-      <div className="d-flex justify-content-center img-container pb-5">
-        <img src="../assets/imgs/logo-4.png" alt='logo-clinica' />
-      </div>
+      <div className="d-flex justify-content-center  pb-5">
+    <Geolocalizacion/>
+     </div>
     </div>
   </div>
 </div>
